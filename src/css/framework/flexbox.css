@@ -4,6 +4,7 @@
 /* | - Containers -------------------------------- | */
 
 [class*="flex"],
+.flex,
 .row,
 .column {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -34,8 +35,7 @@
 /* | Flex-Flow Variants for Containers --------------- | */
 
 /*| (Default) ----------- |*/
-.flex {
-}
+/* .flex ^^ Already up there */
 
 /*| Flex Direction - Row (Default) ----------- |*/
 [class*="flex"][class*="-R"],
